@@ -276,6 +276,18 @@ public class User_Profile extends javax.swing.JFrame {
         String phoneNumber = txtPhoneNumber.getText().trim();
         String email = txtEmail.getText().trim();
         
+        
+        
+//        if (firstName.isEmpty() || lastName.isEmpty() || 
+//            ageStr.isEmpty() || phoneNumber.isEmpty() || 
+//            email.isEmpty() || photoPath == null) {
+//            JOptionPane.showMessageDialog(this, "All fields must be filled!");
+//            return false;
+//        }    
+        
+        
+        
+        
     
     // First Name Validation
         if(firstName.isEmpty()){
