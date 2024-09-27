@@ -67,31 +67,31 @@ public class User_Profile extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
         jLabel5.setText("Email");
 
-        txtFirstName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtFirstName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtFirstName.setMargin(new java.awt.Insets(4, 6, 2, 6));
 
-        txtLastName.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtLastName.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtLastName.setMargin(new java.awt.Insets(4, 6, 2, 6));
 
-        txtAge.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtAge.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtAge.setMargin(new java.awt.Insets(4, 6, 2, 6));
 
-        txtPhoneNumber.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtPhoneNumber.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtPhoneNumber.setMargin(new java.awt.Insets(4, 6, 2, 6));
 
-        txtEmail.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        txtEmail.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         txtEmail.setMargin(new java.awt.Insets(4, 6, 2, 6));
 
-        btnUploadPhoto.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
-        btnUploadPhoto.setText("Upload Photo");
+        btnUploadPhoto.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        btnUploadPhoto.setText("UPLOAD PHOTO");
         btnUploadPhoto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUploadPhotoActionPerformed(evt);
             }
         });
 
-        btnSubmit.setFont(new java.awt.Font("Arial Black", 0, 12)); // NOI18N
-        btnSubmit.setText("Submit");
+        btnSubmit.setFont(new java.awt.Font("Arial Black", 0, 14)); // NOI18N
+        btnSubmit.setText("SUBMIT");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmitActionPerformed(evt);
@@ -122,14 +122,12 @@ public class User_Profile extends javax.swing.JFrame {
                             .addComponent(jLabel4))
                         .addGap(18, 18, 18)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(txtAge, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 239, Short.MAX_VALUE)
-                                    .addComponent(txtLastName, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(txtFirstName, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(txtLastName, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 252, Short.MAX_VALUE)
+                                .addComponent(txtFirstName, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(txtAge, javax.swing.GroupLayout.Alignment.TRAILING))
                             .addComponent(txtPhoneNumber))))
-                .addContainerGap(66, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -158,7 +156,7 @@ public class User_Profile extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnUploadPhoto)
                     .addComponent(btnSubmit))
-                .addContainerGap(52, Short.MAX_VALUE))
+                .addContainerGap(34, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
