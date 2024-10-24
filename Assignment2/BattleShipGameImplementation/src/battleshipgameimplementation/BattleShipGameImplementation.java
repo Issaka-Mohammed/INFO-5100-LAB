@@ -36,12 +36,14 @@ public class BattleShipGameImplementation {
     Human_Player player3 = new Human_Player("Baba");
     
     // Add players to game
+    System.out.println("Adding players to the game:");
     game.addPlayer(player1);
     game.addPlayer(player2);
     System.out.println();
     
     //Attempting to add a third player gives an error
-    game.addPlayer(player2);
+    System.out.println("Attempting to add a 3rd player to the gives an error message:");
+    game.addPlayer(player3);
     System.out.println();
     
     // Create ships
@@ -54,15 +56,18 @@ public class BattleShipGameImplementation {
     System.out.println();
     
     // List players and ships
+    System.out.println("Listing the ships and players in the game:");
     game.listPlayers();
     player1.listShips();
     player2.listShips();
     System.out.println();
     
     // Remove player from game
+    System.out.println("Removing a player from the game:");
     game.removePlayer(player2);
     
     // List players after removal
+    System.out.println("Listing the players after romoving one:");
     game.listPlayers();
     System.out.println();
     
